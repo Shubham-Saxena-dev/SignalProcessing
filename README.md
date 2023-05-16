@@ -12,7 +12,9 @@ Two ways to run as follows:
 * Run ``` mvn clean package ```
 * Run ``` docker-compose up ```
 
-Then access the api via:
+Access [Swagger Link]( http://localhost:8080/swagger-ui/index.html) for getting altogether glimpse at api, request and responses
+
+API can be accessed via:
 
   **POST**: [/api/db/signal](http://localhost:8080/api/db/signal)
 
@@ -37,6 +39,3 @@ curl --location 'http://localhost:8080/api/db/signal' \
 "param1": 10,
 "param2": 20
 }'
-
-Access [Swagger Link]( http://localhost:8080/swagger-ui/index.html) for getting altogether glimpse at api, request and responses
-
