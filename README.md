@@ -1,8 +1,6 @@
 # Deutsche Bank Exercise
 Process a signal
 
-Access [Swagger Link]( http://localhost:8080/swagger-ui/index.html) for getting altogether glimpse at api, request and responses
-
 Two ways to run as follows:
 
 1) Run `TradingApplication.java` directly
@@ -28,7 +26,7 @@ Body:
 }
  ```
 
-Also be executed by importing this curl:
+Also, it can be executed by importing this curl:
 
 curl --location 'http://localhost:8080/api/db/signal' \
 --header 'db-Auth: db_secret' \
@@ -39,4 +37,6 @@ curl --location 'http://localhost:8080/api/db/signal' \
 "param1": 10,
 "param2": 20
 }'
+
+Access [Swagger Link]( http://localhost:8080/swagger-ui/index.html) for getting altogether glimpse at api, request and responses
 
