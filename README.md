@@ -1,4 +1,4 @@
-# Deutsche Bank Exercise
+# Signal Processing
 Process a signal
 
 Two ways to run as follows:
